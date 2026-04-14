@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center; 
+}
+h1{
+  height: 140px;
+  width: 140px;
+  background-color: gray;
+  /* text-align: center; */
+  
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+
+}
+button {
+  background-color: #4CAF50;   /* green color */
+  color: white;                /* text color */
+  padding: 10px 20px;          /* space inside button */
+  border: none;                /* border hata diya */
+  border-radius: 8px;          /* corners round */
+  font-size: 16px;
+  cursor: pointer;             /* hand cursor */
+  transition: 0.3s;  
+  margin: 30px;          /* smooth effect */
+}
+
+button:hover {
+  background-color: #45a049;   /* hover pe thoda dark */
+}
