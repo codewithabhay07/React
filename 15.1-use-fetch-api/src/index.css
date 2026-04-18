@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+
+  position: relative;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+button{
+  padding: 8px 10px;
+  background-color: red;
+  font-size: larger;
+  border: none;
+  font: 800;
+  transition: transform 0.20s ease-in-out;
+
+}
+
+button:hover {
+  transform: scale(1.05); /* hover pe bada */
+  background-color: rgb(47, 179, 80);
+}
+
+
+button:active {
+  transform: scale(0.95); /* click pe chota */
+}
